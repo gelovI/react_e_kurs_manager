@@ -1,0 +1,31 @@
+@import "./fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .text-input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+  .image-input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+@layer components {
+  .load-course {
+    @apply text-white bg-indigo-600 border-2 border-black rounded-full md:w-20 lg:w-24 xl:w-32 2xl:w-44 md:text-base lg:text-xl xl:text-2xl 2xl:text-4xl;
+  }
+}
+
+@layer utilities {
+  .three-sides-border-dashed {
+    border-top: 1px dashed #3b82f6;
+    border-right: 1px dashed #3b82f6;
+    border-bottom: 1px dashed #3b82f6;
+    border-left: none;
+  }
+}

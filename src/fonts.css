@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "ArchivoBlack";
+  src: url("/public/fonts/ArchivoBlack-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Satisfy";
+  src: url("/public/fonts/Satisfy-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
